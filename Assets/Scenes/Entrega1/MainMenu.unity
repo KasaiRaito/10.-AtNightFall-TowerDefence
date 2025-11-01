@@ -2551,13 +2551,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.049325276, y: 0.7053843, z: -0.049325276, w: 0.7053843}
-  m_LocalPosition: {x: 10, y: 0, z: -10}
+  m_LocalRotation: {x: 0.06975647, y: -0, z: -0, w: 0.9975641}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2050768670}
-  m_LocalEulerAnglesHint: {x: 8, y: 90, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &970840124
 GameObject:
   m_ObjectHideFlags: 0
@@ -4754,6 +4754,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2050768670}
+  - component: {fileID: 2050768671}
   m_Layer: 0
   m_Name: CAMERA HOLDER
   m_TagString: Untagged
@@ -4774,11 +4775,23 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 963194228}
   - {fileID: 948614467}
   - {fileID: 267496643}
-  - {fileID: 963194228}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2050768671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2050768669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ef0235dd576c8742b4690e6e848351c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2140283978
 GameObject:
   m_ObjectHideFlags: 0
